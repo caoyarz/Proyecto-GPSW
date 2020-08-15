@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form_registro_insumo {
+  width: 450px;
+  margin: auto;
+}
+
+form {
+  background: white;
+  margin: auto;
+  padding: 20px 50px;
+  border: 1px solid #d1d1d1;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+
+  margin: 15px auto 5px auto;
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  padding: 5px;
+  border: 1px solid #85929e;
+  border-radius: 5px;
+}
+
+.boton_agregar {
+  font-size: 12pt;
+  background: rgb(16, 109, 51);
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+  margin: 15px auto;
+}
+
+.boton_cancelar {
+  font-size: 12pt;
+  background: rgb(68, 39, 175);
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+  margin: 15px auto;
+}
+
+.boton_borrar {
+  font-size: 12pt;
+  background: rgb(175, 39, 39);
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+  margin: 15px auto;
+}
+a {
+  text-decoration: none;
+}
+
+.alerta {
+  width: 100%;
+  background: white;
+  border-radius: 6px;
+  margin: 0px auto;
+  padding: 1px;
+}
+.msg_error {
+  color: #d41111;
+}
+.msg_save {
+  color: #277c12;
+}

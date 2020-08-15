@@ -1,0 +1,81 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 12pt;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+th {
+  text-align: center;
+  padding: 10px;
+  background: lightslategrey;
+  color: #fff;
+}
+td {
+  padding: 10px;
+}
+
+table tr:nth-child(odd) {
+  background: rgba(226, 226, 226, 0.945);
+}
+
+.boton-editar {
+  color: blue;
+  text-decoration: none;
+}
+.boton-eliminar {
+  color: red;
+  text-decoration: none;
+}
+
+.boton_registrar {
+  font-size: 12pt;
+  background: lightslategrey;
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+  margin: 15px;
+  border-radius: 5px;
+  width: 20%;
+  position: relative;
+  left: 918px;
+}
+.paginador ul {
+  padding: 15px;
+  list-style: none;
+  background: white;
+  margin-top: 15px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+}
+.paginador a,
+.pagina_seleccionada {
+  color: lightslategray;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+  width: 35px;
+  text-decoration: none;
+}
+.paginador a:hover {
+  background: #ddd;
+}
+
+.pagina_seleccionada {
+  color: white;
+  background: lightslategray;
+  border: 1px solid lightslategray;
+}
